@@ -1,0 +1,100 @@
+* {
+    
+}
+/* CSS for the Header */
+header {
+    width: 100%;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #111;
+    color: #ffffff;
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0%;
+}
+/* CSS for the Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+    margin: 0;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+  }
+  
+li a:hover {
+    background-color: #111;
+    margin: 0;
+  }
+
+/* CSS for the Body */
+body {
+    background-color: #e3f3fa;
+    margin-top: 24px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+
+}
+
+.firstblock {
+    padding: 10px;
+    width: 400px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 75px;
+}
+
+.block{
+    padding: 10px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 75px;
+    margin-inline: 8px; 
+}
+
+/* CSS For the Footer */
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    text-align: center;
+    top: 200px;
+    height: 100px;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form button{
+    display:inline;
+    position: static;
+}
